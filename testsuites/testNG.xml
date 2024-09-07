@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite  name="Suite"> 
+ <listeners>
+ 	<listener class-name="curaHealth.testComponents.Listeners"/>
+ </listeners>
+<!-- thread-count means only specified amount of methods is allowed to run parallely in a class or test at a time -->
+  <test thread-count="1" name="Submit Order Test">
+    <classes>
+     
+      <class name="curaHealth.tests.EtETest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+   
+</suite> <!-- Suite -->
